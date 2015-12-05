@@ -1,0 +1,78 @@
+* {
+				/*重置浏览器的默认边距*/
+				padding: 0;
+				margin: 0;
+				border: 0;
+			}
+			
+			.common {
+				height: 40px;
+				position: absolute;
+				left: 0;
+				bottom: 0;
+			}
+			
+			#content {
+				overflow: hidden;
+				width: 500px; /*舞台宽度*/
+				height: 400px;
+				position: absolute;
+			}
+			
+			#imgHold li {
+				list-style: none;
+				display: none;
+				position: absolute;
+				float: left;
+			}
+			
+			#imgHold li img {
+				width: 500px;/*图片宽度，必须和舞台一样宽*/
+				height: 400px;
+			}
+			
+			.title_bg {
+				background-color: #eeeeee;
+				width: 100%;
+				opacity: 0.4;
+				z-index: 1;
+			}
+			
+			.title {
+				margin-left: 10px;
+				color: #333333;
+				line-height: 40px;
+				z-index: 2;
+			}
+			
+			.index {
+				color: #fefefe;
+				line-height: 40px;
+				z-index: 3;
+				margin-right: 10px;
+				float: right;
+				right: 0;
+			}
+			
+			.index ul li {
+				float: right;
+				list-style: none;
+				width: 14px;
+				height: 14px;
+				line-height: 40px;
+				margin-right: 3px;
+				background-color: #aaaaaa;
+				border-radius: 7px;
+				margin-top: 13px;
+			}
+			
+			.moveIn {
+				animation: imgIn 1s;
+				-moz-animation: imgIn 1s;
+			}
+			
+			.moveOut {
+				animation: imgOut 1s;
+				-moz-animation: imgOut 1s;
+			}
+			
